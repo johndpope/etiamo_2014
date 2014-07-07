@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>EAC1BD1A-16AF-4377-8EF9-3B54B4645A96</string>
+	<key>IDESourceControlProjectName</key>
+	<string>EggTester</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>A977727C-6FD8-4AB6-816F-3976160FE648</key>
+		<string>https://git3.projectlocker.com/MobileNetSolutions/egg.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>EggTester/EggTester.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>A977727C-6FD8-4AB6-816F-3976160FE648</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://git3.projectlocker.com/MobileNetSolutions/egg.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>A977727C-6FD8-4AB6-816F-3976160FE648</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>A977727C-6FD8-4AB6-816F-3976160FE648</string>
+			<key>IDESourceControlWCCName</key>
+			<string>egg</string>
+		</dict>
+	</array>
+</dict>
+</plist>

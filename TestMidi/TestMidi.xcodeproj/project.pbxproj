@@ -1,0 +1,487 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D6C75EE11961214B007B319F /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6C75EE01961214B007B319F /* Cocoa.framework */; };
+		D6C75EEB1961214C007B319F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D6C75EE91961214C007B319F /* InfoPlist.strings */; };
+		D6C75EED1961214C007B319F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D6C75EEC1961214C007B319F /* main.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		D6C75EF11961214C007B319F /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = D6C75EEF1961214C007B319F /* Credits.rtf */; };
+		D6C75EF41961214C007B319F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D6C75EF31961214C007B319F /* AppDelegate.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		D6C75EF71961214C007B319F /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = D6C75EF51961214C007B319F /* MainMenu.xib */; };
+		D6C75EF91961214C007B319F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6C75EF81961214C007B319F /* Images.xcassets */; };
+		D6C75F001961214C007B319F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6C75EFF1961214C007B319F /* XCTest.framework */; };
+		D6C75F011961214C007B319F /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6C75EE01961214B007B319F /* Cocoa.framework */; };
+		D6C75F091961214C007B319F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D6C75F071961214C007B319F /* InfoPlist.strings */; };
+		D6C75F0B1961214C007B319F /* TestMidiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D6C75F0A1961214C007B319F /* TestMidiTests.m */; };
+		D6C75F151961216A007B319F /* CoreMIDI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6C75F141961216A007B319F /* CoreMIDI.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D6C75F021961214C007B319F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D6C75ED51961214B007B319F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6C75EDC1961214B007B319F;
+			remoteInfo = TestMidi;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D6C75EDD1961214B007B319F /* TestMidi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestMidi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6C75EE01961214B007B319F /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		D6C75EE31961214C007B319F /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		D6C75EE41961214C007B319F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		D6C75EE51961214C007B319F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D6C75EE81961214C007B319F /* TestMidi-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TestMidi-Info.plist"; sourceTree = "<group>"; };
+		D6C75EEA1961214C007B319F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D6C75EEC1961214C007B319F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D6C75EEE1961214C007B319F /* TestMidi-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TestMidi-Prefix.pch"; sourceTree = "<group>"; };
+		D6C75EF01961214C007B319F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		D6C75EF21961214C007B319F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D6C75EF31961214C007B319F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D6C75EF61961214C007B319F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		D6C75EF81961214C007B319F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D6C75EFE1961214C007B319F /* TestMidiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestMidiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6C75EFF1961214C007B319F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		D6C75F061961214C007B319F /* TestMidiTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TestMidiTests-Info.plist"; sourceTree = "<group>"; };
+		D6C75F081961214C007B319F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D6C75F0A1961214C007B319F /* TestMidiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestMidiTests.m; sourceTree = "<group>"; };
+		D6C75F141961216A007B319F /* CoreMIDI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMIDI.framework; path = System/Library/Frameworks/CoreMIDI.framework; sourceTree = SDKROOT; };
+		D6C75F1A196124F4007B319F /* MidiParser.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; path = MidiParser.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D6C75EDA1961214B007B319F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6C75F151961216A007B319F /* CoreMIDI.framework in Frameworks */,
+				D6C75EE11961214B007B319F /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6C75EFB1961214C007B319F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6C75F011961214C007B319F /* Cocoa.framework in Frameworks */,
+				D6C75F001961214C007B319F /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D6C75ED41961214B007B319F = {
+			isa = PBXGroup;
+			children = (
+				D6C75EE61961214C007B319F /* TestMidi */,
+				D6C75F041961214C007B319F /* TestMidiTests */,
+				D6C75EDF1961214B007B319F /* Frameworks */,
+				D6C75EDE1961214B007B319F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D6C75EDE1961214B007B319F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D6C75EDD1961214B007B319F /* TestMidi.app */,
+				D6C75EFE1961214C007B319F /* TestMidiTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D6C75EDF1961214B007B319F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D6C75F141961216A007B319F /* CoreMIDI.framework */,
+				D6C75EE01961214B007B319F /* Cocoa.framework */,
+				D6C75EFF1961214C007B319F /* XCTest.framework */,
+				D6C75EE21961214C007B319F /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D6C75EE21961214C007B319F /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D6C75EE31961214C007B319F /* AppKit.framework */,
+				D6C75EE41961214C007B319F /* CoreData.framework */,
+				D6C75EE51961214C007B319F /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		D6C75EE61961214C007B319F /* TestMidi */ = {
+			isa = PBXGroup;
+			children = (
+				D6C75EF21961214C007B319F /* AppDelegate.h */,
+				D6C75EF31961214C007B319F /* AppDelegate.m */,
+				D6C75EF51961214C007B319F /* MainMenu.xib */,
+				D6C75EF81961214C007B319F /* Images.xcassets */,
+				D6C75EE71961214C007B319F /* Supporting Files */,
+				D6C75F1A196124F4007B319F /* MidiParser.h */,
+			);
+			path = TestMidi;
+			sourceTree = "<group>";
+		};
+		D6C75EE71961214C007B319F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D6C75EE81961214C007B319F /* TestMidi-Info.plist */,
+				D6C75EE91961214C007B319F /* InfoPlist.strings */,
+				D6C75EEC1961214C007B319F /* main.m */,
+				D6C75EEE1961214C007B319F /* TestMidi-Prefix.pch */,
+				D6C75EEF1961214C007B319F /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D6C75F041961214C007B319F /* TestMidiTests */ = {
+			isa = PBXGroup;
+			children = (
+				D6C75F0A1961214C007B319F /* TestMidiTests.m */,
+				D6C75F051961214C007B319F /* Supporting Files */,
+			);
+			path = TestMidiTests;
+			sourceTree = "<group>";
+		};
+		D6C75F051961214C007B319F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D6C75F061961214C007B319F /* TestMidiTests-Info.plist */,
+				D6C75F071961214C007B319F /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D6C75EDC1961214B007B319F /* TestMidi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6C75F0E1961214C007B319F /* Build configuration list for PBXNativeTarget "TestMidi" */;
+			buildPhases = (
+				D6C75ED91961214B007B319F /* Sources */,
+				D6C75EDA1961214B007B319F /* Frameworks */,
+				D6C75EDB1961214B007B319F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestMidi;
+			productName = TestMidi;
+			productReference = D6C75EDD1961214B007B319F /* TestMidi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D6C75EFD1961214C007B319F /* TestMidiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6C75F111961214C007B319F /* Build configuration list for PBXNativeTarget "TestMidiTests" */;
+			buildPhases = (
+				D6C75EFA1961214C007B319F /* Sources */,
+				D6C75EFB1961214C007B319F /* Frameworks */,
+				D6C75EFC1961214C007B319F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D6C75F031961214C007B319F /* PBXTargetDependency */,
+			);
+			name = TestMidiTests;
+			productName = TestMidiTests;
+			productReference = D6C75EFE1961214C007B319F /* TestMidiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D6C75ED51961214B007B319F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Sensorem;
+				TargetAttributes = {
+					D6C75EFD1961214C007B319F = {
+						TestTargetID = D6C75EDC1961214B007B319F;
+					};
+				};
+			};
+			buildConfigurationList = D6C75ED81961214B007B319F /* Build configuration list for PBXProject "TestMidi" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D6C75ED41961214B007B319F;
+			productRefGroup = D6C75EDE1961214B007B319F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D6C75EDC1961214B007B319F /* TestMidi */,
+				D6C75EFD1961214C007B319F /* TestMidiTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D6C75EDB1961214B007B319F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6C75EEB1961214C007B319F /* InfoPlist.strings in Resources */,
+				D6C75EF91961214C007B319F /* Images.xcassets in Resources */,
+				D6C75EF11961214C007B319F /* Credits.rtf in Resources */,
+				D6C75EF71961214C007B319F /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6C75EFC1961214C007B319F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6C75F091961214C007B319F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D6C75ED91961214B007B319F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6C75EF41961214C007B319F /* AppDelegate.m in Sources */,
+				D6C75EED1961214C007B319F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6C75EFA1961214C007B319F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6C75F0B1961214C007B319F /* TestMidiTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D6C75F031961214C007B319F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D6C75EDC1961214B007B319F /* TestMidi */;
+			targetProxy = D6C75F021961214C007B319F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D6C75EE91961214C007B319F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D6C75EEA1961214C007B319F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D6C75EEF1961214C007B319F /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D6C75EF01961214C007B319F /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		D6C75EF51961214C007B319F /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D6C75EF61961214C007B319F /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		D6C75F071961214C007B319F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D6C75F081961214C007B319F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D6C75F0C1961214C007B319F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		D6C75F0D1961214C007B319F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D6C75F0F1961214C007B319F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TestMidi/TestMidi-Prefix.pch";
+				INFOPLIST_FILE = "TestMidi/TestMidi-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D6C75F101961214C007B319F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TestMidi/TestMidi-Prefix.pch";
+				INFOPLIST_FILE = "TestMidi/TestMidi-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		D6C75F121961214C007B319F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TestMidi.app/Contents/MacOS/TestMidi";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TestMidi/TestMidi-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "TestMidiTests/TestMidiTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		D6C75F131961214C007B319F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TestMidi.app/Contents/MacOS/TestMidi";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TestMidi/TestMidi-Prefix.pch";
+				INFOPLIST_FILE = "TestMidiTests/TestMidiTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D6C75ED81961214B007B319F /* Build configuration list for PBXProject "TestMidi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6C75F0C1961214C007B319F /* Debug */,
+				D6C75F0D1961214C007B319F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6C75F0E1961214C007B319F /* Build configuration list for PBXNativeTarget "TestMidi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6C75F0F1961214C007B319F /* Debug */,
+				D6C75F101961214C007B319F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D6C75F111961214C007B319F /* Build configuration list for PBXNativeTarget "TestMidiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6C75F121961214C007B319F /* Debug */,
+				D6C75F131961214C007B319F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D6C75ED51961214B007B319F /* Project object */;
+}

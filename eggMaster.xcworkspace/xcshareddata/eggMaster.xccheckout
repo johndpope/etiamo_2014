@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>1C9E65CD-C42F-408C-A0CD-6D8F5FBA470C</string>
+	<key>IDESourceControlProjectName</key>
+	<string>eggMaster</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>5B0D5D14-7C82-4D48-B9BA-0E402A63F2E1</key>
+		<string>https://github.com/mathias-dietrich/etiamo_2014.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>eggMaster.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>5B0D5D14-7C82-4D48-B9BA-0E402A63F2E1</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/mathias-dietrich/etiamo_2014.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>5B0D5D14-7C82-4D48-B9BA-0E402A63F2E1</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>5B0D5D14-7C82-4D48-B9BA-0E402A63F2E1</string>
+			<key>IDESourceControlWCCName</key>
+			<string>etiamo_2014</string>
+		</dict>
+	</array>
+</dict>
+</plist>

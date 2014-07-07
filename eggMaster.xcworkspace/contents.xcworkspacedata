@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:MostSimpleSynth/MostSimpleSynth.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:TestMidi/TestMidi.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:AudioUnitEffectExample/FilterDemo.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "container:EggTester/EggTester.xcodeproj">
+   </FileRef>
+</Workspace>

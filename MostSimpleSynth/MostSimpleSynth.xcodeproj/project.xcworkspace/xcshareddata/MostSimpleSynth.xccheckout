@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>BA1F27A8-1000-49C5-B7AC-4307FD7033B5</string>
+	<key>IDESourceControlProjectName</key>
+	<string>MostSimpleSynth</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>13EF711F-1BBF-4CB3-9972-65AC2D307CA7</key>
+		<string>https://git3.projectlocker.com/MobileNetSolutions/egg.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>MostSimpleSynth/MostSimpleSynth.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>13EF711F-1BBF-4CB3-9972-65AC2D307CA7</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://git3.projectlocker.com/MobileNetSolutions/egg.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>13EF711F-1BBF-4CB3-9972-65AC2D307CA7</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>13EF711F-1BBF-4CB3-9972-65AC2D307CA7</string>
+			<key>IDESourceControlWCCName</key>
+			<string>egg</string>
+		</dict>
+	</array>
+</dict>
+</plist>
