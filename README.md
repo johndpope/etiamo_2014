@@ -1,4 +1,4 @@
 etiamo_2014
 ===========
 
-test code for IoS audio synthesizer
+test code for IOS audio synthesizer
